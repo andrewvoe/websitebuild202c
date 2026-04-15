@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x:scroll;
+}
+
+.navbar{
+    position: fixed;
+    top:10px;
+    left:0;
+    width:100%;
+    background-color:lightblue;
+    padding:30px;
+    
+    display:grid;
+    grid-template-columns: 200px 400px 200px;
+    align-items: center;
+    
+  
+}
+.logo{
+    grid-column:1;
+}
+
+.nav-button{
+    background-color: azure;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-buttons{
+    grid-column:3;
+    display:flex;
+    gap: 200px;
+}
+
+.nav-button:hover{
+    background-color:aqua;
+    transition: all 0.3s;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 125px 125x 125px;
+    margin: 200px;
+    gap:2px;
+}
+
+.welcome{
+    grid-column: 2;
+    grid-row: 2;
+}
+.picture{
+    grid-column: 2;
+    grid-row: 3;
+    margin-left:60px;
+}
+.about{
+    grid-column:1;
+    grid-row:2;
+    margin-left:100px;
+
+}
+.projecttext{
+    grid-column:2;
+    grid-row:2;
+    margin-left:175px;
+}
+.projectbody{
+grid-column:2;
+grid-row:3;
+margin-left:175px;
+}
+.abouttext{
+    grid-column: 2;
+    grid-row: 3;
+    
+}
