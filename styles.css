@@ -69,9 +69,10 @@ body {
     margin-left:175px;
 }
 .projectbody{
-grid-column:2;
-grid-row:3;
-margin-left:175px;
+    grid-column:2;
+    grid-row:3;
+    margin-left:140px;
+    padding:50px;
 }
 .abouttext{
     grid-column: 2;
